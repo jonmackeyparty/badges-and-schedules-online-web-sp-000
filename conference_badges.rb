@@ -17,6 +17,7 @@ end
 
 def printer(attendees)
   badges.each {|x| puts "#{x}"}
+  room_assignments.each {|x| puts "#{x}"}
 end
   
 
