@@ -16,7 +16,7 @@ def assign_rooms(attendees)
 end
 
 def printer
-  badges.each {|x| puts #{x} }
+  
 end
   
 
