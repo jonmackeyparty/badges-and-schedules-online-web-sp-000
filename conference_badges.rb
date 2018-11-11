@@ -3,5 +3,5 @@ def badge_maker(attendees)
 end
 
 def badge_creator(attendees)
-  attendees.collect {|x| puts "Hello, my name is #{x}."
+  attendees.collect {|x| puts "Hello, my name is #{x}."}
 end
