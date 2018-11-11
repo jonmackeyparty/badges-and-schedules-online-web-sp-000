@@ -1,3 +1,5 @@
 def badge_maker(attendees)
-  attendees.collect {|x| puts "Hello, my name is #{x}."}
+  badges = []
+  attendees.each {|x| badges << "Hello, my name is #{x}."}
+  badges
 end
