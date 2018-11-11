@@ -14,4 +14,6 @@ def assign_rooms(attendees)
   attendees.each {|x| room_assignments << "Hello, #{x}! You'll be assigned to room #{room += 1}!"}
   return room_assignments
 end
+
+
   
